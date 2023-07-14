@@ -18,7 +18,7 @@ public class Main {
         List<ToolCharges> toolCharges = Initializer.getToolCharges();
         CheckoutService checkoutService = new CheckoutService(tools, toolCharges);
 
-        outputTitle("Welcome to the ac01714 Tool Rental Checkout");
+        outputTitle("Welcome to the ar01714 Tool Rental Checkout");
 
         boolean isCheckingOut = true;
 
